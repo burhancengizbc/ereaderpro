@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<title>Harita Avı — Reklam</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0; padding: 60px 40px;
+    background: #2D3A45;
+    color: #F4F1EA;
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  h1 {
+    font-family: 'Bebas Neue', Impact, sans-serif;
+    font-size: 88px; letter-spacing: 0.04em;
+    margin: 0 0 8px;
+  }
+  .sub { color: #B8BFC6; font-size: 20px; margin-bottom: 60px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .card {
+    background: #1F2A33;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 22px;
+    padding: 32px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 200ms, border-color 200ms;
+  }
+  .card:hover { transform: translateY(-4px); border-color: #E54848; }
+  .label { font-size: 14px; letter-spacing: 0.2em; color: #E54848; font-weight: 700; }
+  .title { font-family: 'Bebas Neue', sans-serif; font-size: 56px; letter-spacing: 0.03em; margin: 12px 0 8px; }
+  .meta { font-size: 16px; color: #B8BFC6; }
+  .preview {
+    margin-top: 22px;
+    background: #2D3A45;
+    border-radius: 14px;
+    aspect-ratio: 9/16;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    color: #fff;
+    letter-spacing: 0.04em;
+  }
+  .card.horiz .preview { aspect-ratio: 16/9; }
+  .dash { width: 28px; height: 6px; background: #E54848; margin: 14px auto 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HARİTA AVI <span style="color:#E54848">·</span> REKLAM</h1>
+  <div class="sub">30 saniyelik tanıtım videoları — iki format</div>
+
+  <div class="grid">
+    <a class="card" href="Harita Avi - Dikey.html">
+      <div class="label">9:16 · DİKEY</div>
+      <div class="title">TIKTOK · REELS · SHORTS · STORY</div>
+      <div class="meta">1080 × 1920 · 30s</div>
+      <div class="preview">
+        <div style="text-align:center">
+          HARİTA<br/>AVI
+          <div class="dash"></div>
+        </div>
+      </div>
+    </a>
+
+    <a class="card horiz" href="Harita Avi - Yatay.html">
+      <div class="label">16:9 · YATAY</div>
+      <div class="title">YOUTUBE · WEB · TV</div>
+      <div class="meta">1920 × 1080 · 30s</div>
+      <div class="preview">
+        <div style="text-align:center">
+          HARİTA AVI
+          <div class="dash"></div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <p style="margin-top:60px;color:#B8BFC6;font-size:15px;line-height:1.6">
+    Klavye: <b>Boşluk</b> oynat/duraklat · <b>← →</b> ileri/geri · <b>0</b> başa al
+  </p>
+</div>
+</body>
+</html>
